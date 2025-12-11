@@ -28,13 +28,13 @@ public class Pagamentos extends VBox {
 
         // Titulo do stage
         VBox headerTitulo = new VBox();
-        Label titulo = new Label("Valor a ser pago");
+        Label titulo = new Label("Valor à ser pago");
         titulo.setStyle("-fx-text-fill: black;-fx-font-size: 32; -fx-font-weight: Bold;");
         headerTitulo.getChildren().add(titulo);
         VBox.setMargin(headerTitulo, new Insets(50, 0, 0, 50));
 
         // Label Data e o horário
-        Label dataHorarioTitulo = new Label("Data e horário: ");
+        Label dataHorarioTitulo = new Label("Data e horário de saida: ");
         dataHorarioTitulo.setStyle("-fx-text-fill: black;-fx-font-size: 25; ");
 
         // Horário agora formatado
